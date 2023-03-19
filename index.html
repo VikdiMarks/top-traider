@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Top Traider</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="header-content">
+        <a href="./index.html" class="header-logo">
+          <img src="./assets/img/logo.png" alt="logo">
+        </a>
+        <nav class="header-links">
+          <a href="./categories.html" class="header-link">Сategories</a>
+          <a href="#" class="header-link">Blacklist</a>
+          <a href="./rec-companies.html" class="header-link">Recommended companies</a>
+        </nav>
+        <form class="search">
+          <input type="search" placeholder="Search for companies" class="search-input">
+          <button class="search-button"><img src="./assets/img/search.svg" alt=""></button>
+        </form>
+      </div>
+    </div>
+
+    <button class="burger">
+      <span></span>
+    </button>
+  </header>
+
+  <main>
+    <div class="intro">
+      <div class="intro-content">
+        <h1 class="intro-title">Search for company reviews</h1>
+        <img class="intro-img" src="./assets/img/home/intro/item.jpg" alt="">
+        <form class="search">
+          <input type="search" placeholder="Search for companies" class="search-input">
+          <button class="search-button"><img src="./assets/img/search.svg" alt=""></button>
+        </form>
+        <p class="intro-description">
+          Top-Trade: reviews, top companies, and blacklist
+          for avoiding scams:
+        </p>
+      </div>
+    </div>
+
+    <div class="home-cards">
+      <div class="container">
+        <div class="home-wrapper-cards">
+          <section class="home-card">
+            <div class="home-card-title">Сategories</div>
+            <img src="./assets/img/home/cards-read-more/1.png" alt="" class="home-card-img">
+            <button type="button" class="button-gradient">Read more</button>
+          </section>
+
+          <section class="home-card">
+            <div class="home-card-title">Recommended
+              companies</div>
+            <img src="./assets/img/home/cards-read-more/2.png" alt="" class="home-card-img">
+            <button type="button" class="button-gradient">Read more</button>
+          </section>
+
+          <section class="home-card">
+            <div class="home-card-title">Add a company
+              to our website</div>
+            <img src="./assets/img/home/cards-read-more/3.png" alt="" class="home-card-img">
+            <button type="button" class="button-gradient" name="show-modal-window">Add a company</button>
+          </section>
+        </div>
+      </div>
+    </div>
+
+    <div class="add-company">
+      <section class="add-company-wrapper">
+        <div class="add-company-header">
+          <span class="add-company-title">CONTACT</span>
+          <button class="add-company-close"></button>
+        </div>
+
+        <div class="add-company-main">
+          <form action="post">
+            <input type="text" name="firstname" id="" placeholder="YOUR NAME (REQUIRED)">
+            <input type="text" name="lastname" id="" placeholder="YOUR NAME (REQUIRED)">
+            <input type="text" name="title" id="" placeholder="TITLE">
+            <textarea name="message" id="" cols="30" rows="10" placeholder="YOUR MESSAGE"></textarea>
+            <label>
+              <input type="checkbox" name="" id="">
+              <span>I agree to the processing of personal data and the privacy policy</span>
+            </label>
+            <button class="button-gradient">SEND</button>
+          </form>
+
+          <img src="./assets/img/contact-form.png" alt="">
+        </div>
+      </section>
+    </div>
+
+    <section class="popular-companies container">
+      <h1 class="popular-companies-title">Popular companies by reviews</h1>
+      <div class="popular-companies-wrapper">
+        <img src="./assets/img/home/popular-company/item.jpg" alt="" class="popular-companies-img">
+        <div class="home-company-cards">
+          <section class="home-company-card">
+            <img src="./assets/img/company/1.png" class="home-company-card-img" alt="">
+            <div class="home-company-card-content">
+              <span class="home-company-card-title">Eat greens every day – fake</span>
+              <div class="home-company-card-rating">
+                <img src="./assets/img/star.svg" alt="">
+                <img src="./assets/img/star.svg" alt="">
+                <img src="./assets/img/star.svg" alt="">
+                <img src="./assets/img/star.svg" alt="">
+                <img src="./assets/img/star.svg" alt="">
+              </div>
+              <span class="home-company-card-comments">4 comments</span>
+            </div>
+          </section>
+
+          <section class="home-company-card">
+            <img src="./assets/img/company/2.png" class="home-company-card-img" alt="">
+            <div class="home-company-card-content">
+              <span class="home-company-card-title">Muffin Recipes You Can't Resist</span>
+              <div class="home-company-card-rating">
+                <img src="./assets/img/star.svg" alt="">
+                <img src="./assets/img/star.svg" alt="">
+                <img src="./assets/img/star.svg" alt="">
+                <img src="./assets/img/star.svg" alt="">
+                <img src="./assets/img/star.svg" alt="">
+              </div>
+              <span class="home-company-card-comments">3 comments</span>
+            </div>
+          </section>
+          <section class="home-company-card">
+            <img src="./assets/img/company/3.png" class="home-company-card-img" alt="">
+            <div class="home-company-card-content">
+              <span class="home-company-card-title">Smile and say Cheese</span>
+              <div class="home-company-card-rating">
+                <img src="./assets/img/star.svg" alt="">
+                <img src="./assets/img/star.svg" alt="">
+                <img src="./assets/img/star.svg" alt="">
+                <img src="./assets/img/star.svg" alt="">
+                <img src="./assets/img/star.svg" alt="">
+              </div>
+              <span class="home-company-card-comments">2 comments</span>
+            </div>
+          </section>
+
+          <section class="home-company-card">
+            <img src="./assets/img/company/4.png" class="home-company-card-img" alt="">
+            <div class="home-company-card-content">
+              <span class="home-company-card-title">The best salads with mozzarella cheese</span>
+              <div class="home-company-card-rating">
+                <img src="./assets/img/star.svg" alt="">
+                <img src="./assets/img/star.svg" alt="">
+                <img src="./assets/img/star.svg" alt="">
+                <img src="./assets/img/star.svg" alt="">
+                <img src="./assets/img/star.svg" alt="">
+              </div>
+              <span class="home-company-card-comments">No comments</span>
+            </div>
+          </section>
+          <section class="home-company-card">
+            <img src="./assets/img/company/1.png" class="home-company-card-img" alt="">
+            <div class="home-company-card-content">
+              <span class="home-company-card-title">The best salads with mozzarella cheese</span>
+              <div class="home-company-card-rating">
+                <img src="./assets/img/star.svg" alt="">
+                <img src="./assets/img/star.svg" alt="">
+                <img src="./assets/img/star.svg" alt="">
+                <img src="./assets/img/star.svg" alt="">
+                <img src="./assets/img/star.svg" alt="">
+              </div>
+              <span class="home-company-card-comments">No comments</span>
+            </div>
+          </section>
+
+          <section class="home-company-card">
+            <img src="./assets/img/company/1.png" class="home-company-card-img" alt="">
+            <div class="home-company-card-content">
+              <span class="home-company-card-title">The Best Fruit smoothie ingredients</span>
+              <div class="home-company-card-rating">
+                <img src="./assets/img/star.svg" alt="">
+                <img src="./assets/img/star.svg" alt="">
+                <img src="./assets/img/star.svg" alt="">
+                <img src="./assets/img/star.svg" alt="">
+                <img src="./assets/img/star.svg" alt="">
+              </div>
+              <span class="home-company-card-comments">No comments</span>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <section class="latest-comments container">
+      <h1 class="latest-comments-title">Latest Comments</h1>
+      <div class="latest-comments-cards">
+        <div class="latest-comments-card">
+          <section class="home-company-card">
+            <img src="./assets/img/company/1.png" alt="" class="home-company-card-img">
+            <div class="home-company-card-content">
+              <span class="home-company-card-title">The Best Fruit smoothie ingredients</span>
+              <div class="home-company-card-rating">
+                <img src="./assets/img/star.svg" alt="">
+                <img src="./assets/img/star.svg" alt="">
+                <img src="./assets/img/star.svg" alt="">
+                <img src="./assets/img/star.svg" alt="">
+                <img src="./assets/img/star.svg" alt="">
+              </div>
+            </div>
+          </section>
+          <img src="./assets/img/home/latest-comments/1.png" alt="" class="latest-comments-card-img">
+          <span class="latest-comments-card-username">Irina S.</span>
+          <p class="latest-comments-card-comment">
+            Thanks! Very useful data.
+          </p>
+        </div>
+
+        <div class="latest-comments-card">
+          <section class="home-company-card">
+            <img src="./assets/img/company/2.png" alt="" class="home-company-card-img">
+            <div class="home-company-card-content">
+              <span class="home-company-card-title">The Best Fruit smoothie ingredients</span>
+              <div class="home-company-card-rating">
+                <img src="./assets/img/star.svg" alt="">
+                <img src="./assets/img/star.svg" alt="">
+                <img src="./assets/img/star.svg" alt="">
+                <img src="./assets/img/star.svg" alt="">
+                <img src="./assets/img/star.svg" alt="">
+              </div>
+            </div>
+          </section>
+          <img src="./assets/img/home/latest-comments/2.png" alt="" class="latest-comments-card-img">
+          <span class="latest-comments-card-username">Irina S.</span>
+          <p class="latest-comments-card-comment">
+            Thanks! Very useful data.
+          </p>
+        </div>
+
+        <div class="latest-comments-card">
+          <section class="home-company-card">
+            <img src="./assets/img/company/3.png" alt="" class="home-company-card-img">
+            <div class="home-company-card-content">
+              <span class="home-company-card-title">The Best Fruit smoothie ingredients</span>
+              <div class="home-company-card-rating">
+                <img src="./assets/img/star.svg" alt="">
+                <img src="./assets/img/star.svg" alt="">
+                <img src="./assets/img/star.svg" alt="">
+                <img src="./assets/img/star.svg" alt="">
+                <img src="./assets/img/star.svg" alt="">
+              </div>
+            </div>
+          </section>
+          <img src="./assets/img/home/latest-comments/3.png" alt="" class="latest-comments-card-img">
+          <span class="latest-comments-card-username">Irina S.</span>
+          <p class="latest-comments-card-comment">
+            Thanks! Very useful data.
+          </p>
+        </div>
+
+        <div class="latest-comments-card">
+          <section class="home-company-card">
+            <img src="./assets/img/company/4.png" alt="" class="home-company-card-img">
+            <div class="home-company-card-content">
+              <span class="home-company-card-title">The Best Fruit smoothie ingredients</span>
+              <div class="home-company-card-rating">
+                <img src="./assets/img/star.svg" alt="">
+                <img src="./assets/img/star.svg" alt="">
+                <img src="./assets/img/star.svg" alt="">
+                <img src="./assets/img/star.svg" alt="">
+                <img src="./assets/img/star.svg" alt="">
+              </div>
+            </div>
+          </section>
+          <img src="./assets/img/home/latest-comments/4.png" alt="" class="latest-comments-card-img">
+          <span class="latest-comments-card-username">Irina S.</span>
+          <p class="latest-comments-card-comment">
+            Thanks! Very useful data.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="home-cards functions">
+      <div class="container">
+        <div class="home-wrapper-cards">
+          <section class="home-card">
+            <img src="./assets/img/home/functions/card-2.png" alt="" class="home-card-img">
+            <div class="home-card-title">Select a category</div>
+            <p class="home-card-text">
+              Select the desired category
+              from the menu or search form
+            </p>
+          </section>
+
+          <section class="home-card">
+            <img src="./assets/img/home/functions/card-1.png" alt="" class="home-card-img">
+            <div class="home-card-title">Find the company
+              you are interested in</div>
+            <p class="home-card-text">
+              Find a company that matches your interests
+              among others
+            </p>
+          </section>
+
+          <section class="home-card">
+            <img src="./assets/img/home/functions/card-3.png" alt="" class="home-card-img">
+            <div class="home-card-title">Read real reviews</div>
+            <p class="home-card-text">
+              Read real user reviews about the company
+              you are interested in
+            </p>
+          </section>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer container">
+    <div class="footer-up">
+      <nav class="footer-links">
+        <a href="#" class="footer-link">Privacy policy</a>
+        <a href="#" class="footer-link">User agreement</a>
+        <a href="mailto:top-trade.reviews@gmail.com" class="footer-link">top-trade.reviews@gmail.com</a>
+      </nav>
+      <span>© 2023 - top-trade.reviews</span>
+    </div>
+    <hr>
+    <p class="footer-text">
+      This website uses cookies to improve site navigation, analyze site usage, assist in our marketing efforts and
+      provide you with the best possible experience
+    </p>
+  </footer>
+
+  <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
